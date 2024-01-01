@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import { Menu } from '../menu/Menu';
 
 interface HeaderProps {
     width?: 'fullwidth' | 'halfwidth';
@@ -14,11 +15,11 @@ export const Header = ({
 }: HeaderProps) => {
     const mode = width === 'fullwidth' ? 'fullwidth' : 'halfwidth';
     return (
-        <header className="bg-gray-800 text-white p-4 header">
-        <div className="container mx-auto">
-          <h1 className="text-2xl font-bold">Your Header Content</h1>
-          {/* Add more header content as needed */}
-        </div>
+        <header className="container header flex flex-row">
+            <div className='leftmenu'>
+                <Menu />    
+             </div>
+            <div className='rightmenu'> </div>
       </header>
     );
 };
