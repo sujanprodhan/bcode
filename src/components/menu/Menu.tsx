@@ -15,8 +15,8 @@ export const Menu = ({
 }: MenuProps) => {
     const mode = 'storybook-button--primary';
     return (
-        <div className="flex justify-between space-x-4">
-            <nav className="w-3/4 space-x-10 mx-20 my-10">
+        <div className="flex justify-between space-x-4 items-center">
+            <nav className="w-3/4 space-x-10 my-10">
                 <Link href="/" className="text-white">
                     Home
                 </Link>
@@ -34,17 +34,13 @@ export const Menu = ({
                 </Link>
 
             </nav>
-            <nav className="w-1/4 space-x-10 " style={{ border: '1px solid red' }}>
-                <div> <Link href="/about" className="text-white my-10">
+            <nav className="w-1/4 space-x-10 flex justify-center items-center">
+                <Link href="/about" className="text-white">
                     Login
-
                 </Link>
-                </div>
-                <div>
-                    <Link href="/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-                        Join our discord
-                    </Link>
-                </div>
+                <Link href="/about" className="h-1/2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                    Join our discord
+                </Link>
 
             </nav>
         </div>
