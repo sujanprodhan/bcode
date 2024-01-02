@@ -1,6 +1,6 @@
 .header {
     background: linear-gradient(#3F68FF, #CD63FF);
-    width: 1440px !important;
-    height: 100vh;
+    min-width: 90vw !important;
+    height: 400px;
     position: relative;
 }
