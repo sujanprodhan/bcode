@@ -32,7 +32,7 @@ export const Footer = ({
                 </div>
             </div>
             <div className='flex px-20 py-5  justify-between border-b border-gray-300'>
-                <div className='w-1/4' style={{border:'1px solid red'}}>
+                <div className='w-1/4'>
                     <p className='text-white'> Empowering global traders with unrivalled financial support. Navigate markets confidently with our innovative funding models and expert guidance.</p>
                     <ul className="flex items-center justify-center space-x-4 py-5 flex-start">
                         <li>
