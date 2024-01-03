@@ -14,9 +14,9 @@ export const Intro = ({
     ...props
 }: IntroProps) => {
     return (
-        <div className='intro container flex relative'>
-            <div className='w-2/4 mx-30 py-20 px-20'>
-                <h1 className="space-x-10 my-5 text-2xl  text-bold"> Introducing FundedNext Stellar Challenge 🙌 </h1>
+        <div className='intro container flex relative justify-between'>
+            <div className='w-2/5 mx-30 py-20 px-20'>
+                <h1 className="space-x-10 mt-20 text-3xl  text-bold"> Introducing FundedNext Stellar Challenge 🙌 </h1>
                 <ul className='my-5'>
                     <li>  No Time Limit </li>
                     <li>  Balance Based Drawdown </li>
@@ -27,7 +27,7 @@ export const Intro = ({
                 </Link>
 
             </div>
-            <div className='w-2/4 space-x-10 mx-40 my-10 relative'>
+            <div className='w-2/5 space-x-10 mx-40 my-10 relative'>
             <Image
                 src="https://placehold.co/500x500"
                 alt="Intro Image"

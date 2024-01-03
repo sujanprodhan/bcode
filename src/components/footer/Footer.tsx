@@ -15,7 +15,7 @@ export const Footer = ({
 }: FooterProps) => {
 
     return (
-        <header className="container footer mx-auto w-full w-full">
+        <header className="container footer mx-auto w-full w-full  py-20">
             <div className='flex px-20 py-5 items-center justify-between border-b border-gray-600'>
                 <div className='w-2/4 w-50'>
                     <h1 className='space-x-10  text-3xl text-white text-bold'> Join the Global Community for the Traders ✌️</h1>
@@ -149,6 +149,16 @@ export const Footer = ({
 
                 </div>
             </div>
+
+            <div className="flex justify-between px-20 pt-10">
+                <p className='text-white'> © copy 2023 alll rights reserved. </p>
+                <div> </div>
+                <div className='text-white mx-10 px-5'> 
+                    <Link href="#"> Cookie </Link>
+                    <Link href="#"> Privacy Policy </Link>
+                    <Link href="#"> Terms & Conditions </Link>
+                </div>
+                </div>
         </header>
     );
 };

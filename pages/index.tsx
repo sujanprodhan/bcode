@@ -1,14 +1,12 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Test from '@/src/components/common/Test'
-import { Menu } from '@/src/components/menu/Menu'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>  <Menu /> 
+    <div>  
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
