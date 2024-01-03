@@ -9,19 +9,14 @@ interface FooterProps {
     width?: 'fullwidth' | 'halfwidth';
 }
 
-/**
- * Primary UI component for user interaction
- */
 export const Footer = ({
     width,
     ...props
 }: FooterProps) => {
 
-
-    const mode = width === 'fullwidth' ? 'fullwidth' : 'halfwidth';
     return (
         <header className="container footer mx-auto w-full w-full">
-            <div className='flex px-20 py-5 items-center justify-between border-b border-gray-300'>
+            <div className='flex px-20 py-5 items-center justify-between border-b border-gray-600'>
                 <div className='w-2/4 w-50'>
                     <h1 className='space-x-10  text-3xl text-white text-bold'> Join the Global Community for the Traders ✌️</h1>
                 </div>
@@ -31,7 +26,7 @@ export const Footer = ({
                     </Link>
                 </div>
             </div>
-            <div className='flex px-20 py-5  justify-between border-b border-gray-300'>
+            <div className='flex px-20 py-5  justify-between border-b border-gray-600'>
                 <div className='w-1/4'>
                     <p className='text-white'> Empowering global traders with unrivalled financial support. Navigate markets confidently with our innovative funding models and expert guidance.</p>
                     <ul className="flex items-center justify-center space-x-4 py-5 flex-start">

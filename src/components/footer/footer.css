@@ -1,3 +1,7 @@
 .footer{
     background-color: #060334;
+    min-width: 92vw;
+    height: auto;
+    position: relative;
+    padding-bottom: 40px;
 }
